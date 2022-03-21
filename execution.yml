@@ -1,6 +1,6 @@
 ---
 execution:
-- concurrecny: 50
+- concurrency: 50
   hold-for: 3m
   ramp-up: 2m
   
@@ -16,5 +16,5 @@ scenarios:
       url: http://blazedemo.com/reserve.php
       body: 
         fromPort: Paris
-        toPort: Bristol
+        toPort: Buenos Aires
   
